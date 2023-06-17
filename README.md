@@ -1,4 +1,4 @@
-# Laravel 9 Honeybadger 錯誤追蹤
+# Laravel 10 Honeybadger 錯誤追蹤
 
 例外狀況、正常運行時間和排程監控都集中在一個地方，為關心產品品質和客戶滿意的開發人員打造的應用程式健康狀況監視。
 
@@ -24,8 +24,8 @@ $ php artisan honeybadger:install {專案 API 金鑰}
 - 你可以經由 `/debug` 來進行錯誤例外觸發。
 
 ## 畫面截圖
-![](https://i.imgur.com/KSGgpna.png)
+![](https://i.imgur.com/B1uTZKD.png)
 > 觸發錯誤例外以中斷程式流程
 
-![](https://i.imgur.com/nelz3uJ.png)
+![](https://i.imgur.com/dO2kYlg.png)
 > 使用 Honeybadger 確認程式錯誤的偵測
