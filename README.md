@@ -1,4 +1,4 @@
-# Laravel 11 Honeybadger 錯誤追蹤
+# Laravel 12 Honeybadger 錯誤追蹤
 
 引入 honeybadger-io 的 honeybadger-laravel 套件來擴增使用 Honeybadger 錯誤追蹤，例外狀況、正常運行時間和排程監控都集中在一個地方，為關心產品品質和客戶滿意的開發人員打造的應用程式健康狀況監視。
 
@@ -16,6 +16,10 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
+- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
+```sh
+$ php artisan migrate
+```
 - 執行 __Artisan__ 指令測試你的 Honeybadger 配置。
 ```sh
 $ php artisan honeybadger:install {專案 API 金鑰}
@@ -24,8 +28,8 @@ $ php artisan honeybadger:install {專案 API 金鑰}
 - 你可以經由 `/debug` 來進行錯誤例外觸發。
 
 ## 畫面截圖
-![](https://i.imgur.com/etJAD5w.png)
+![](https://i.imgur.com/QQrcrEo.png)
 > 觸發錯誤例外以中斷程式流程
 
-![](https://i.imgur.com/ncOBbcR.png)
+![](https://i.imgur.com/YVrCQny.png)
 > 使用 Honeybadger 確認程式錯誤的偵測
